@@ -1,4 +1,4 @@
 #!/bin/bash
 
-docker run --rm -v -v ${PWD}/datasets:/data apache-jena \
-    riot --formatted=TURTLE /data/pmb.nt > /data/pmb.ttl
+echo "Converting pmb.nt to pmb.ttl"
+docker run --rm -v ${PWD}/datasets:/rdf stain/jena riot pmb.nt > ${PWD}/datasets/pmb.ttl

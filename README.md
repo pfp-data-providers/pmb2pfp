@@ -21,7 +21,7 @@ cp .env .secret [and add your ownloud credentials]
 
 
 
-## build and validate the graph
+## build the graph and upload it to ownlcoud
 ```bash
 ./scripts/build_pmb_graph.sh
 ```
@@ -29,8 +29,13 @@ cp .env .secret [and add your ownloud credentials]
 the graph is uploaded to [owncloud](https://cloud.oeaw.ac.at/index.php/s/NTjXBotgP988rbB)
 
 
-## Docker
+## validate
 
 ```bash
-docker build -t apache-jena .
+./validate.sh
+```
+
+## convert nt to ttl
+```bash
+./convert.sh
 ```

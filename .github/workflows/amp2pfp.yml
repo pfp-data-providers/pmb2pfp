@@ -10,7 +10,7 @@ jobs:
     env:
       OWNCLOUD_USER: ${{ secrets.OWNCLOUD_USER }}
       OWNCLOUD_PW: ${{ secrets.OWNCLOUD_PW }}
-      NO_LIMIT: 1
+      # NO_LIMIT: 1
     steps:
       - name: Perfom Checkout
         uses: actions/checkout@v4
@@ -19,3 +19,10 @@ jobs:
           pip install -r requirements.txt
       - name: dump the data
         run: ./scripts/build_graph.sh
+      - name: validate the data
+        run: ./scripts/validate.sh
+      - name: Upload validation report
+        uses: actions/upload-artifact@v3
+        with:
+          name: validation-report
+          path: datasets/validation_report.txt
