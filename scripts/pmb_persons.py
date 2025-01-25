@@ -82,30 +82,38 @@ for x in tqdm(items, total=len(items)):
     )
 
     # birth
-    event_graph, birth_uri, birth_timestamp = make_birth_death_entities(
-        subj,
-        x,
-        f"{PU}place__",
-        event_type="birth",
-        verbose=False,
-        default_prefix="Geburt von",
-        date_node_xpath="/tei:date[1]",
-        place_id_xpath="//tei:settlement[1]/@key",
-    )
-    g += event_graph
+    try:
+        x.xpath(".//tei:birth", namespaces=NSMAP)[0]
+        event_graph, birth_uri, birth_timestamp = make_birth_death_entities(
+            subj,
+            x,
+            f"{PU}place__",
+            event_type="birth",
+            verbose=False,
+            default_prefix="Geburt von",
+            date_node_xpath="/tei:date[1]",
+            place_id_xpath="//tei:settlement[1]/@key",
+        )
+        g += event_graph
+    except IndexError:
+        pass
 
     # death
-    event_graph, birth_uri, birth_timestamp = make_birth_death_entities(
-        subj,
-        x,
-        f"{PU}place__",
-        event_type="death",
-        verbose=False,
-        default_prefix="Tod von",
-        date_node_xpath="/tei:date[1]",
-        place_id_xpath="//tei:settlement[1]/@key",
-    )
-    g += event_graph
+    try:
+        x.xpath(".//tei:birth", namespaces=NSMAP)[0]
+        event_graph, birth_uri, birth_timestamp = make_birth_death_entities(
+            subj,
+            x,
+            f"{PU}place__",
+            event_type="death",
+            verbose=False,
+            default_prefix="Tod von",
+            date_node_xpath="/tei:date[1]",
+            place_id_xpath="//tei:settlement[1]/@key",
+        )
+        g += event_graph
+    except IndexError:
+        pass
 
     # occupations
     g += make_occupations(subj, x, id_xpath="./@key")[0]

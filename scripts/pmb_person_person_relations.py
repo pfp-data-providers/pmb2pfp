@@ -28,7 +28,11 @@ g = Graph()
 g.parse("https://acdh-oeaw.github.io/pfp-schema/types/person-person/person-person.ttl")
 for x in doc.any_xpath(".//tei:relation"):
     g += tei_relation_to_SRPC3_in_social_relation(
-        x, domain="https://pmb.acdh.oeaw.ac.at/", lookup_dict=lookup_dict, verbose=True, entity_prefix="person__"
+        x,
+        domain="https://pmb.acdh.oeaw.ac.at/",
+        lookup_dict=lookup_dict,
+        verbose=True,
+        entity_prefix="person__",
     )
 
 save_path = os.path.join(rdf_dir, "pmb_person-person-relations.pickle")
