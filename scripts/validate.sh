@@ -13,4 +13,4 @@ docker run --rm -v ${PWD}/${DATA_DIR}:/data ghcr.io/ashleycaselli/shacl:latest v
 
 echo "Validation report written to ${REPORT}"
 VIOLATIONS=$(grep -o "sh:Violation" ${REPORT} | wc -l)
-echo "upsi dupsi, there are ${VIOLATIONS} violations. hush hush, go and fix them!"
+echo "Upsi dupsi, there are ${VIOLATIONS} violations. hush hush, go and fix them!"

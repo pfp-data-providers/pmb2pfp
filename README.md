@@ -32,10 +32,10 @@ the graph is uploaded to [owncloud](https://cloud.oeaw.ac.at/index.php/s/NTjXBot
 ## validate
 
 ```bash
-./validate.sh
+./scripts/validate.sh
 ```
 
 ## convert nt to ttl
 ```bash
-./convert.sh
+./scripts/convert.sh
 ```
