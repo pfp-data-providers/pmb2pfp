@@ -1,3 +1,5 @@
+[![Serialize PMB to PFP-CIDOC](https://github.com/arthur-schnitzler/pmb2pfp/actions/workflows/amp2pfp.yml/badge.svg)](https://github.com/arthur-schnitzler/pmb2pfp/actions/workflows/amp2pfp.yml)
+
 # pmb2pfp
 repo to serialize pmb-entity-data into pfp-cidoc rdf
 
