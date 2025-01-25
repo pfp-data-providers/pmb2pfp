@@ -1,0 +1,357 @@
+Validation Report
+Conforms: False
+Results (59):
+Constraint Violation in OrConstraintComponent (http://www.w3.org/ns/shacl#OrConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: pfpsh:crm_E85_Joining
+	Focus Node: <https://pmb.acdh.oeaw.ac.at/person__201030/joining/36996/1>
+	Value Node: <https://pmb.acdh.oeaw.ac.at/person__201030/joining/36996/1>
+	Message: Every Joining event must either have a direct connection to a Group via P144_joined_with or be connected to a PC144_joined_with instance.
+Constraint Violation in QualifiedValueShapeConstraintComponent (http://www.w3.org/ns/shacl#QualifiedMinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.") ; sh:path crm:P1_is_identified_by ; sh:qualifiedMinCount Literal("1", datatype=xsd:integer) ; sh:qualifiedValueShape [ sh:class crm:E33_E41_Linguistic_Appellation ] ]
+	Focus Node: <https://pmb.acdh.oeaw.ac.at/person__194276>
+	Result Path: crm:P1_is_identified_by
+	Message: Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.
+Constraint Violation in QualifiedValueShapeConstraintComponent (http://www.w3.org/ns/shacl#QualifiedMinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.") ; sh:path crm:P1_is_identified_by ; sh:qualifiedMinCount Literal("1", datatype=xsd:integer) ; sh:qualifiedValueShape [ sh:class crm:E33_E41_Linguistic_Appellation ] ]
+	Focus Node: <https://pmb.acdh.oeaw.ac.at/person__244232>
+	Result Path: crm:P1_is_identified_by
+	Message: Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.
+Constraint Violation in QualifiedValueShapeConstraintComponent (http://www.w3.org/ns/shacl#QualifiedMinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.") ; sh:path crm:P1_is_identified_by ; sh:qualifiedMinCount Literal("1", datatype=xsd:integer) ; sh:qualifiedValueShape [ sh:class crm:E33_E41_Linguistic_Appellation ] ]
+	Focus Node: <https://pmb.acdh.oeaw.ac.at/person__194722>
+	Result Path: crm:P1_is_identified_by
+	Message: Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.
+Constraint Violation in QualifiedValueShapeConstraintComponent (http://www.w3.org/ns/shacl#QualifiedMinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.") ; sh:path crm:P1_is_identified_by ; sh:qualifiedMinCount Literal("1", datatype=xsd:integer) ; sh:qualifiedValueShape [ sh:class crm:E33_E41_Linguistic_Appellation ] ]
+	Focus Node: <https://pmb.acdh.oeaw.ac.at/person__243957>
+	Result Path: crm:P1_is_identified_by
+	Message: Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.
+Constraint Violation in QualifiedValueShapeConstraintComponent (http://www.w3.org/ns/shacl#QualifiedMinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.") ; sh:path crm:P1_is_identified_by ; sh:qualifiedMinCount Literal("1", datatype=xsd:integer) ; sh:qualifiedValueShape [ sh:class crm:E33_E41_Linguistic_Appellation ] ]
+	Focus Node: <https://pmb.acdh.oeaw.ac.at/person__195292>
+	Result Path: crm:P1_is_identified_by
+	Message: Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.
+Constraint Violation in QualifiedValueShapeConstraintComponent (http://www.w3.org/ns/shacl#QualifiedMinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.") ; sh:path crm:P1_is_identified_by ; sh:qualifiedMinCount Literal("1", datatype=xsd:integer) ; sh:qualifiedValueShape [ sh:class crm:E33_E41_Linguistic_Appellation ] ]
+	Focus Node: <https://pmb.acdh.oeaw.ac.at/person__194680>
+	Result Path: crm:P1_is_identified_by
+	Message: Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.
+Constraint Violation in QualifiedValueShapeConstraintComponent (http://www.w3.org/ns/shacl#QualifiedMinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.") ; sh:path crm:P1_is_identified_by ; sh:qualifiedMinCount Literal("1", datatype=xsd:integer) ; sh:qualifiedValueShape [ sh:class crm:E33_E41_Linguistic_Appellation ] ]
+	Focus Node: <https://pmb.acdh.oeaw.ac.at/person__243885>
+	Result Path: crm:P1_is_identified_by
+	Message: Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.
+Constraint Violation in QualifiedValueShapeConstraintComponent (http://www.w3.org/ns/shacl#QualifiedMinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.") ; sh:path crm:P1_is_identified_by ; sh:qualifiedMinCount Literal("1", datatype=xsd:integer) ; sh:qualifiedValueShape [ sh:class crm:E33_E41_Linguistic_Appellation ] ]
+	Focus Node: <https://pmb.acdh.oeaw.ac.at/person__193909>
+	Result Path: crm:P1_is_identified_by
+	Message: Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.
+Constraint Violation in QualifiedValueShapeConstraintComponent (http://www.w3.org/ns/shacl#QualifiedMinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.") ; sh:path crm:P1_is_identified_by ; sh:qualifiedMinCount Literal("1", datatype=xsd:integer) ; sh:qualifiedValueShape [ sh:class crm:E33_E41_Linguistic_Appellation ] ]
+	Focus Node: <https://pmb.acdh.oeaw.ac.at/person__194616>
+	Result Path: crm:P1_is_identified_by
+	Message: Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.
+Constraint Violation in QualifiedValueShapeConstraintComponent (http://www.w3.org/ns/shacl#QualifiedMinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.") ; sh:path crm:P1_is_identified_by ; sh:qualifiedMinCount Literal("1", datatype=xsd:integer) ; sh:qualifiedValueShape [ sh:class crm:E33_E41_Linguistic_Appellation ] ]
+	Focus Node: <https://pmb.acdh.oeaw.ac.at/person__194525>
+	Result Path: crm:P1_is_identified_by
+	Message: Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.
+Constraint Violation in QualifiedValueShapeConstraintComponent (http://www.w3.org/ns/shacl#QualifiedMinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.") ; sh:path crm:P1_is_identified_by ; sh:qualifiedMinCount Literal("1", datatype=xsd:integer) ; sh:qualifiedValueShape [ sh:class crm:E33_E41_Linguistic_Appellation ] ]
+	Focus Node: <https://pmb.acdh.oeaw.ac.at/person__194244>
+	Result Path: crm:P1_is_identified_by
+	Message: Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.
+Constraint Violation in QualifiedValueShapeConstraintComponent (http://www.w3.org/ns/shacl#QualifiedMinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.") ; sh:path crm:P1_is_identified_by ; sh:qualifiedMinCount Literal("1", datatype=xsd:integer) ; sh:qualifiedValueShape [ sh:class crm:E33_E41_Linguistic_Appellation ] ]
+	Focus Node: <https://pmb.acdh.oeaw.ac.at/person__243839>
+	Result Path: crm:P1_is_identified_by
+	Message: Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.
+Constraint Violation in QualifiedValueShapeConstraintComponent (http://www.w3.org/ns/shacl#QualifiedMinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.") ; sh:path crm:P1_is_identified_by ; sh:qualifiedMinCount Literal("1", datatype=xsd:integer) ; sh:qualifiedValueShape [ sh:class crm:E33_E41_Linguistic_Appellation ] ]
+	Focus Node: <https://pmb.acdh.oeaw.ac.at/person__244265>
+	Result Path: crm:P1_is_identified_by
+	Message: Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.
+Constraint Violation in QualifiedValueShapeConstraintComponent (http://www.w3.org/ns/shacl#QualifiedMinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.") ; sh:path crm:P1_is_identified_by ; sh:qualifiedMinCount Literal("1", datatype=xsd:integer) ; sh:qualifiedValueShape [ sh:class crm:E33_E41_Linguistic_Appellation ] ]
+	Focus Node: <https://pmb.acdh.oeaw.ac.at/person__244261>
+	Result Path: crm:P1_is_identified_by
+	Message: Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.
+Constraint Violation in QualifiedValueShapeConstraintComponent (http://www.w3.org/ns/shacl#QualifiedMinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.") ; sh:path crm:P1_is_identified_by ; sh:qualifiedMinCount Literal("1", datatype=xsd:integer) ; sh:qualifiedValueShape [ sh:class crm:E33_E41_Linguistic_Appellation ] ]
+	Focus Node: <https://pmb.acdh.oeaw.ac.at/person__193969>
+	Result Path: crm:P1_is_identified_by
+	Message: Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.
+Constraint Violation in QualifiedValueShapeConstraintComponent (http://www.w3.org/ns/shacl#QualifiedMinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.") ; sh:path crm:P1_is_identified_by ; sh:qualifiedMinCount Literal("1", datatype=xsd:integer) ; sh:qualifiedValueShape [ sh:class crm:E33_E41_Linguistic_Appellation ] ]
+	Focus Node: <https://pmb.acdh.oeaw.ac.at/person__194603>
+	Result Path: crm:P1_is_identified_by
+	Message: Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.
+Constraint Violation in QualifiedValueShapeConstraintComponent (http://www.w3.org/ns/shacl#QualifiedMinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.") ; sh:path crm:P1_is_identified_by ; sh:qualifiedMinCount Literal("1", datatype=xsd:integer) ; sh:qualifiedValueShape [ sh:class crm:E33_E41_Linguistic_Appellation ] ]
+	Focus Node: <https://pmb.acdh.oeaw.ac.at/person__235076>
+	Result Path: crm:P1_is_identified_by
+	Message: Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.
+Constraint Violation in QualifiedValueShapeConstraintComponent (http://www.w3.org/ns/shacl#QualifiedMinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.") ; sh:path crm:P1_is_identified_by ; sh:qualifiedMinCount Literal("1", datatype=xsd:integer) ; sh:qualifiedValueShape [ sh:class crm:E33_E41_Linguistic_Appellation ] ]
+	Focus Node: <https://pmb.acdh.oeaw.ac.at/person__194821>
+	Result Path: crm:P1_is_identified_by
+	Message: Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.
+Constraint Violation in QualifiedValueShapeConstraintComponent (http://www.w3.org/ns/shacl#QualifiedMinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.") ; sh:path crm:P1_is_identified_by ; sh:qualifiedMinCount Literal("1", datatype=xsd:integer) ; sh:qualifiedValueShape [ sh:class crm:E33_E41_Linguistic_Appellation ] ]
+	Focus Node: <https://pmb.acdh.oeaw.ac.at/person__244257>
+	Result Path: crm:P1_is_identified_by
+	Message: Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.
+Constraint Violation in QualifiedValueShapeConstraintComponent (http://www.w3.org/ns/shacl#QualifiedMinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.") ; sh:path crm:P1_is_identified_by ; sh:qualifiedMinCount Literal("1", datatype=xsd:integer) ; sh:qualifiedValueShape [ sh:class crm:E33_E41_Linguistic_Appellation ] ]
+	Focus Node: <https://pmb.acdh.oeaw.ac.at/person__193772>
+	Result Path: crm:P1_is_identified_by
+	Message: Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.
+Constraint Violation in QualifiedValueShapeConstraintComponent (http://www.w3.org/ns/shacl#QualifiedMinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.") ; sh:path crm:P1_is_identified_by ; sh:qualifiedMinCount Literal("1", datatype=xsd:integer) ; sh:qualifiedValueShape [ sh:class crm:E33_E41_Linguistic_Appellation ] ]
+	Focus Node: <https://pmb.acdh.oeaw.ac.at/person__194093>
+	Result Path: crm:P1_is_identified_by
+	Message: Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.
+Constraint Violation in QualifiedValueShapeConstraintComponent (http://www.w3.org/ns/shacl#QualifiedMinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.") ; sh:path crm:P1_is_identified_by ; sh:qualifiedMinCount Literal("1", datatype=xsd:integer) ; sh:qualifiedValueShape [ sh:class crm:E33_E41_Linguistic_Appellation ] ]
+	Focus Node: <https://pmb.acdh.oeaw.ac.at/person__194176>
+	Result Path: crm:P1_is_identified_by
+	Message: Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.
+Constraint Violation in QualifiedValueShapeConstraintComponent (http://www.w3.org/ns/shacl#QualifiedMinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.") ; sh:path crm:P1_is_identified_by ; sh:qualifiedMinCount Literal("1", datatype=xsd:integer) ; sh:qualifiedValueShape [ sh:class crm:E33_E41_Linguistic_Appellation ] ]
+	Focus Node: <https://pmb.acdh.oeaw.ac.at/person__244201>
+	Result Path: crm:P1_is_identified_by
+	Message: Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.
+Constraint Violation in QualifiedValueShapeConstraintComponent (http://www.w3.org/ns/shacl#QualifiedMinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.") ; sh:path crm:P1_is_identified_by ; sh:qualifiedMinCount Literal("1", datatype=xsd:integer) ; sh:qualifiedValueShape [ sh:class crm:E33_E41_Linguistic_Appellation ] ]
+	Focus Node: <https://pmb.acdh.oeaw.ac.at/person__194743>
+	Result Path: crm:P1_is_identified_by
+	Message: Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.
+Constraint Violation in QualifiedValueShapeConstraintComponent (http://www.w3.org/ns/shacl#QualifiedMinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.") ; sh:path crm:P1_is_identified_by ; sh:qualifiedMinCount Literal("1", datatype=xsd:integer) ; sh:qualifiedValueShape [ sh:class crm:E33_E41_Linguistic_Appellation ] ]
+	Focus Node: <https://pmb.acdh.oeaw.ac.at/person__195333>
+	Result Path: crm:P1_is_identified_by
+	Message: Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.
+Constraint Violation in QualifiedValueShapeConstraintComponent (http://www.w3.org/ns/shacl#QualifiedMinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.") ; sh:path crm:P1_is_identified_by ; sh:qualifiedMinCount Literal("1", datatype=xsd:integer) ; sh:qualifiedValueShape [ sh:class crm:E33_E41_Linguistic_Appellation ] ]
+	Focus Node: <https://pmb.acdh.oeaw.ac.at/person__193915>
+	Result Path: crm:P1_is_identified_by
+	Message: Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.
+Constraint Violation in QualifiedValueShapeConstraintComponent (http://www.w3.org/ns/shacl#QualifiedMinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.") ; sh:path crm:P1_is_identified_by ; sh:qualifiedMinCount Literal("1", datatype=xsd:integer) ; sh:qualifiedValueShape [ sh:class crm:E33_E41_Linguistic_Appellation ] ]
+	Focus Node: <https://pmb.acdh.oeaw.ac.at/person__194700>
+	Result Path: crm:P1_is_identified_by
+	Message: Every Person needs at least one appellation attached to the crm:E21_Person instance. Note that this can the same as the rdfs:label that is also needed.
+Constraint Violation in XoneConstraintComponent (http://www.w3.org/ns/shacl#XoneConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: pfpsh:crm_E52_Time-Span
+	Focus Node: <https://pmb.acdh.oeaw.ac.at/person__194456/death/time-span>
+	Value Node: <https://pmb.acdh.oeaw.ac.at/person__194456/death/time-span>
+	Message: Node <https://pmb.acdh.oeaw.ac.at/person__194456/death/time-span> must conform to exactly one shape in [ sh:property [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("If using P82_at_some_time_within, exactly one date value (either year or full date) is required.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:or ( [ sh:datatype xsd:gYear ] [ sh:datatype xsd:date ] [ sh:datatype xsd:gYearMonth ] ) ; sh:path crm:P82_at_some_time_within ] ] , [ sh:property [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("When using begin/end properties, P82a_begin_of_the_begin must have exactly one date value.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:or ( [ sh:datatype xsd:gYear ] [ sh:datatype xsd:date ] [ sh:datatype xsd:gYearMonth ] ) ; sh:path crm:P82a_begin_of_the_begin ], [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("When using begin/end properties, P82b_end_of_the_end must have exactly one date value.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:or ( [ sh:datatype xsd:gYear ] [ sh:datatype xsd:date ] [ sh:datatype xsd:gYearMonth ] ) ; sh:path crm:P82b_end_of_the_end ] ]
+Constraint Violation in XoneConstraintComponent (http://www.w3.org/ns/shacl#XoneConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: pfpsh:crm_E52_Time-Span
+	Focus Node: <https://pmb.acdh.oeaw.ac.at/person__194301/death/time-span>
+	Value Node: <https://pmb.acdh.oeaw.ac.at/person__194301/death/time-span>
+	Message: Node <https://pmb.acdh.oeaw.ac.at/person__194301/death/time-span> must conform to exactly one shape in [ sh:property [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("If using P82_at_some_time_within, exactly one date value (either year or full date) is required.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:or ( [ sh:datatype xsd:gYear ] [ sh:datatype xsd:date ] [ sh:datatype xsd:gYearMonth ] ) ; sh:path crm:P82_at_some_time_within ] ] , [ sh:property [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("When using begin/end properties, P82a_begin_of_the_begin must have exactly one date value.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:or ( [ sh:datatype xsd:gYear ] [ sh:datatype xsd:date ] [ sh:datatype xsd:gYearMonth ] ) ; sh:path crm:P82a_begin_of_the_begin ], [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("When using begin/end properties, P82b_end_of_the_end must have exactly one date value.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:or ( [ sh:datatype xsd:gYear ] [ sh:datatype xsd:date ] [ sh:datatype xsd:gYearMonth ] ) ; sh:path crm:P82b_end_of_the_end ] ]
+Constraint Violation in XoneConstraintComponent (http://www.w3.org/ns/shacl#XoneConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: pfpsh:crm_E52_Time-Span
+	Focus Node: <https://pmb.acdh.oeaw.ac.at/person__194631/birth/time-span>
+	Value Node: <https://pmb.acdh.oeaw.ac.at/person__194631/birth/time-span>
+	Message: Node <https://pmb.acdh.oeaw.ac.at/person__194631/birth/time-span> must conform to exactly one shape in [ sh:property [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("If using P82_at_some_time_within, exactly one date value (either year or full date) is required.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:or ( [ sh:datatype xsd:gYear ] [ sh:datatype xsd:date ] [ sh:datatype xsd:gYearMonth ] ) ; sh:path crm:P82_at_some_time_within ] ] , [ sh:property [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("When using begin/end properties, P82a_begin_of_the_begin must have exactly one date value.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:or ( [ sh:datatype xsd:gYear ] [ sh:datatype xsd:date ] [ sh:datatype xsd:gYearMonth ] ) ; sh:path crm:P82a_begin_of_the_begin ], [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("When using begin/end properties, P82b_end_of_the_end must have exactly one date value.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:or ( [ sh:datatype xsd:gYear ] [ sh:datatype xsd:date ] [ sh:datatype xsd:gYearMonth ] ) ; sh:path crm:P82b_end_of_the_end ] ]
+Constraint Violation in XoneConstraintComponent (http://www.w3.org/ns/shacl#XoneConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: pfpsh:crm_E52_Time-Span
+	Focus Node: <https://pmb.acdh.oeaw.ac.at/person__194331/birth/time-span>
+	Value Node: <https://pmb.acdh.oeaw.ac.at/person__194331/birth/time-span>
+	Message: Node <https://pmb.acdh.oeaw.ac.at/person__194331/birth/time-span> must conform to exactly one shape in [ sh:property [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("If using P82_at_some_time_within, exactly one date value (either year or full date) is required.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:or ( [ sh:datatype xsd:gYear ] [ sh:datatype xsd:date ] [ sh:datatype xsd:gYearMonth ] ) ; sh:path crm:P82_at_some_time_within ] ] , [ sh:property [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("When using begin/end properties, P82a_begin_of_the_begin must have exactly one date value.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:or ( [ sh:datatype xsd:gYear ] [ sh:datatype xsd:date ] [ sh:datatype xsd:gYearMonth ] ) ; sh:path crm:P82a_begin_of_the_begin ], [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("When using begin/end properties, P82b_end_of_the_end must have exactly one date value.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:or ( [ sh:datatype xsd:gYear ] [ sh:datatype xsd:date ] [ sh:datatype xsd:gYearMonth ] ) ; sh:path crm:P82b_end_of_the_end ] ]
+Constraint Violation in XoneConstraintComponent (http://www.w3.org/ns/shacl#XoneConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: pfpsh:crm_E52_Time-Span
+	Focus Node: <https://pmb.acdh.oeaw.ac.at/person__203939/death/time-span>
+	Value Node: <https://pmb.acdh.oeaw.ac.at/person__203939/death/time-span>
+	Message: Node <https://pmb.acdh.oeaw.ac.at/person__203939/death/time-span> must conform to exactly one shape in [ sh:property [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("If using P82_at_some_time_within, exactly one date value (either year or full date) is required.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:or ( [ sh:datatype xsd:gYear ] [ sh:datatype xsd:date ] [ sh:datatype xsd:gYearMonth ] ) ; sh:path crm:P82_at_some_time_within ] ] , [ sh:property [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("When using begin/end properties, P82a_begin_of_the_begin must have exactly one date value.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:or ( [ sh:datatype xsd:gYear ] [ sh:datatype xsd:date ] [ sh:datatype xsd:gYearMonth ] ) ; sh:path crm:P82a_begin_of_the_begin ], [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("When using begin/end properties, P82b_end_of_the_end must have exactly one date value.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:or ( [ sh:datatype xsd:gYear ] [ sh:datatype xsd:date ] [ sh:datatype xsd:gYearMonth ] ) ; sh:path crm:P82b_end_of_the_end ] ]
+Constraint Violation in XoneConstraintComponent (http://www.w3.org/ns/shacl#XoneConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: pfpsh:crm_E52_Time-Span
+	Focus Node: <https://pmb.acdh.oeaw.ac.at/person__193919/death/time-span>
+	Value Node: <https://pmb.acdh.oeaw.ac.at/person__193919/death/time-span>
+	Message: Node <https://pmb.acdh.oeaw.ac.at/person__193919/death/time-span> must conform to exactly one shape in [ sh:property [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("If using P82_at_some_time_within, exactly one date value (either year or full date) is required.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:or ( [ sh:datatype xsd:gYear ] [ sh:datatype xsd:date ] [ sh:datatype xsd:gYearMonth ] ) ; sh:path crm:P82_at_some_time_within ] ] , [ sh:property [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("When using begin/end properties, P82a_begin_of_the_begin must have exactly one date value.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:or ( [ sh:datatype xsd:gYear ] [ sh:datatype xsd:date ] [ sh:datatype xsd:gYearMonth ] ) ; sh:path crm:P82a_begin_of_the_begin ], [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("When using begin/end properties, P82b_end_of_the_end must have exactly one date value.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:or ( [ sh:datatype xsd:gYear ] [ sh:datatype xsd:date ] [ sh:datatype xsd:gYearMonth ] ) ; sh:path crm:P82b_end_of_the_end ] ]
+Constraint Violation in XoneConstraintComponent (http://www.w3.org/ns/shacl#XoneConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: pfpsh:crm_E52_Time-Span
+	Focus Node: <https://pmb.acdh.oeaw.ac.at/person__194031/death/time-span>
+	Value Node: <https://pmb.acdh.oeaw.ac.at/person__194031/death/time-span>
+	Message: Node <https://pmb.acdh.oeaw.ac.at/person__194031/death/time-span> must conform to exactly one shape in [ sh:property [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("If using P82_at_some_time_within, exactly one date value (either year or full date) is required.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:or ( [ sh:datatype xsd:gYear ] [ sh:datatype xsd:date ] [ sh:datatype xsd:gYearMonth ] ) ; sh:path crm:P82_at_some_time_within ] ] , [ sh:property [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("When using begin/end properties, P82a_begin_of_the_begin must have exactly one date value.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:or ( [ sh:datatype xsd:gYear ] [ sh:datatype xsd:date ] [ sh:datatype xsd:gYearMonth ] ) ; sh:path crm:P82a_begin_of_the_begin ], [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("When using begin/end properties, P82b_end_of_the_end must have exactly one date value.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:or ( [ sh:datatype xsd:gYear ] [ sh:datatype xsd:date ] [ sh:datatype xsd:gYearMonth ] ) ; sh:path crm:P82b_end_of_the_end ] ]
+Constraint Violation in XoneConstraintComponent (http://www.w3.org/ns/shacl#XoneConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: pfpsh:crm_E52_Time-Span
+	Focus Node: <https://pmb.acdh.oeaw.ac.at/person__244225/birth/time-span>
+	Value Node: <https://pmb.acdh.oeaw.ac.at/person__244225/birth/time-span>
+	Message: Node <https://pmb.acdh.oeaw.ac.at/person__244225/birth/time-span> must conform to exactly one shape in [ sh:property [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("If using P82_at_some_time_within, exactly one date value (either year or full date) is required.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:or ( [ sh:datatype xsd:gYear ] [ sh:datatype xsd:date ] [ sh:datatype xsd:gYearMonth ] ) ; sh:path crm:P82_at_some_time_within ] ] , [ sh:property [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("When using begin/end properties, P82a_begin_of_the_begin must have exactly one date value.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:or ( [ sh:datatype xsd:gYear ] [ sh:datatype xsd:date ] [ sh:datatype xsd:gYearMonth ] ) ; sh:path crm:P82a_begin_of_the_begin ], [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("When using begin/end properties, P82b_end_of_the_end must have exactly one date value.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:or ( [ sh:datatype xsd:gYear ] [ sh:datatype xsd:date ] [ sh:datatype xsd:gYearMonth ] ) ; sh:path crm:P82b_end_of_the_end ] ]
+Constraint Violation in XoneConstraintComponent (http://www.w3.org/ns/shacl#XoneConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: pfpsh:crm_E52_Time-Span
+	Focus Node: <https://pmb.acdh.oeaw.ac.at/person__194323/death/time-span>
+	Value Node: <https://pmb.acdh.oeaw.ac.at/person__194323/death/time-span>
+	Message: Node <https://pmb.acdh.oeaw.ac.at/person__194323/death/time-span> must conform to exactly one shape in [ sh:property [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("If using P82_at_some_time_within, exactly one date value (either year or full date) is required.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:or ( [ sh:datatype xsd:gYear ] [ sh:datatype xsd:date ] [ sh:datatype xsd:gYearMonth ] ) ; sh:path crm:P82_at_some_time_within ] ] , [ sh:property [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("When using begin/end properties, P82a_begin_of_the_begin must have exactly one date value.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:or ( [ sh:datatype xsd:gYear ] [ sh:datatype xsd:date ] [ sh:datatype xsd:gYearMonth ] ) ; sh:path crm:P82a_begin_of_the_begin ], [ sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("When using begin/end properties, P82b_end_of_the_end must have exactly one date value.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:or ( [ sh:datatype xsd:gYear ] [ sh:datatype xsd:date ] [ sh:datatype xsd:gYearMonth ] ) ; sh:path crm:P82b_end_of_the_end ] ]
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Type must have at least one label.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:nodeKind sh:Literal ; sh:path rdfs:label ]
+	Focus Node: <https://pfp-custom-types/org/orgname>
+	Result Path: rdfs:label
+	Message: Every Type must have at least one label.
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Type must have at least one label.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:nodeKind sh:Literal ; sh:path rdfs:label ]
+	Focus Node: <https://pfp-custom-types/idno/URL/bahr-textverzeichnis>
+	Result Path: rdfs:label
+	Message: Every Type must have at least one label.
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Type must have at least one label.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:nodeKind sh:Literal ; sh:path rdfs:label ]
+	Focus Node: <https://pfp-custom-types/idno/URL/dritte-walpurgisnacht>
+	Result Path: rdfs:label
+	Message: Every Type must have at least one label.
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Type must have at least one label.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:nodeKind sh:Literal ; sh:path rdfs:label ]
+	Focus Node: <https://pfp-custom-types/idno/URL/kaiserin-eleonora>
+	Result Path: rdfs:label
+	Message: Every Type must have at least one label.
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Type must have at least one label.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:nodeKind sh:Literal ; sh:path rdfs:label ]
+	Focus Node: <https://pfp-custom-types/idno/URL/geonames>
+	Result Path: rdfs:label
+	Message: Every Type must have at least one label.
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Type must have at least one label.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:nodeKind sh:Literal ; sh:path rdfs:label ]
+	Focus Node: <https://pfp-custom-types/idno/URL/fackel>
+	Result Path: rdfs:label
+	Message: Every Type must have at least one label.
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Type must have at least one label.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:nodeKind sh:Literal ; sh:path rdfs:label ]
+	Focus Node: <https://pfp-custom-types/person/persname>
+	Result Path: rdfs:label
+	Message: Every Type must have at least one label.
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Type must have at least one label.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:nodeKind sh:Literal ; sh:path rdfs:label ]
+	Focus Node: <https://pfp-custom-types/idno/URL>
+	Result Path: rdfs:label
+	Message: Every Type must have at least one label.
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Type must have at least one label.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:nodeKind sh:Literal ; sh:path rdfs:label ]
+	Focus Node: <https://pfp-custom-types/idno/URL/wikidata>
+	Result Path: rdfs:label
+	Message: Every Type must have at least one label.
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Type must have at least one label.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:nodeKind sh:Literal ; sh:path rdfs:label ]
+	Focus Node: <https://pfp-custom-types/idno/URL/wikipedia>
+	Result Path: rdfs:label
+	Message: Every Type must have at least one label.
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Type must have at least one label.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:nodeKind sh:Literal ; sh:path rdfs:label ]
+	Focus Node: <https://pfp-custom-types/place/placename>
+	Result Path: rdfs:label
+	Message: Every Type must have at least one label.
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Type must have at least one label.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:nodeKind sh:Literal ; sh:path rdfs:label ]
+	Focus Node: <https://pfp-custom-types/idno/URL/wiengeschichtewiki>
+	Result Path: rdfs:label
+	Message: Every Type must have at least one label.
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Type must have at least one label.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:nodeKind sh:Literal ; sh:path rdfs:label ]
+	Focus Node: <https://pfp-custom-types/idno/URL/schnitzler-interviews>
+	Result Path: rdfs:label
+	Message: Every Type must have at least one label.
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Type must have at least one label.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:nodeKind sh:Literal ; sh:path rdfs:label ]
+	Focus Node: <https://pfp-custom-types/idno/URL/brahms-online>
+	Result Path: rdfs:label
+	Message: Every Type must have at least one label.
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Type must have at least one label.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:nodeKind sh:Literal ; sh:path rdfs:label ]
+	Focus Node: <https://pfp-custom-types/idno/URL/legalkraus>
+	Result Path: rdfs:label
+	Message: Every Type must have at least one label.
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Type must have at least one label.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:nodeKind sh:Literal ; sh:path rdfs:label ]
+	Focus Node: <https://pfp-custom-types/idno/URL/schnitzler-bahr>
+	Result Path: rdfs:label
+	Message: Every Type must have at least one label.
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Type must have at least one label.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:nodeKind sh:Literal ; sh:path rdfs:label ]
+	Focus Node: <https://pfp-custom-types/idno/URL/gnd>
+	Result Path: rdfs:label
+	Message: Every Type must have at least one label.
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Type must have at least one label.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:nodeKind sh:Literal ; sh:path rdfs:label ]
+	Focus Node: <https://pfp-custom-types/idno/URL/schnitzler-briefe>
+	Result Path: rdfs:label
+	Message: Every Type must have at least one label.
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Type must have at least one label.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:nodeKind sh:Literal ; sh:path rdfs:label ]
+	Focus Node: <https://pfp-custom-types/idno/URL/schnitzler-tagebuch>
+	Result Path: rdfs:label
+	Message: Every Type must have at least one label.
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Type must have at least one label.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:nodeKind sh:Literal ; sh:path rdfs:label ]
+	Focus Node: <https://pfp-custom-types/idno/URL/pmb>
+	Result Path: rdfs:label
+	Message: Every Type must have at least one label.
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Type must have at least one label.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:nodeKind sh:Literal ; sh:path rdfs:label ]
+	Focus Node: <https://pfp-custom-types/idno/URL/schubert-digital>
+	Result Path: rdfs:label
+	Message: Every Type must have at least one label.
+Constraint Violation in MinCountConstraintComponent (http://www.w3.org/ns/shacl#MinCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:message Literal("Every Type must have at least one label.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:nodeKind sh:Literal ; sh:path rdfs:label ]
+	Focus Node: <https://pfp-custom-types/idno/xml-id>
+	Result Path: rdfs:label
+	Message: Every Type must have at least one label.

@@ -1,3 +1,5 @@
+datasets/
+*.xml
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -128,7 +130,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
 .venv
 env/
 venv/
@@ -169,3 +170,4 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+.secret
