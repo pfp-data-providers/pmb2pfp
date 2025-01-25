@@ -27,3 +27,10 @@ cp .env .secret [and add your ownloud credentials]
 ```
 
 the graph is uploaded to [owncloud](https://cloud.oeaw.ac.at/index.php/s/NTjXBotgP988rbB)
+
+
+## Docker
+
+```bash
+docker build -t apache-jena .
+```

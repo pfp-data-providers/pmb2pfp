@@ -1,4 +1,5 @@
 import os
+import pickle
 import requests
 
 from acdh_cidoc_pyutils import tei_relation_to_SRPC3_in_social_relation
@@ -30,6 +31,7 @@ for x in doc.any_xpath(".//tei:relation"):
         x, domain="https://pmb.acdh.oeaw.ac.at/", lookup_dict=lookup_dict, verbose=True, entity_prefix="person__"
     )
 
-save_path = os.path.join(rdf_dir, "pmb_person-person-relations.ttl")
+save_path = os.path.join(rdf_dir, "pmb_person-person-relations.pickle")
 print(f"saving graph as {save_path}")
-g.serialize(save_path)
+with open(save_path, "wb") as f:
+    pickle.dump(g, f)

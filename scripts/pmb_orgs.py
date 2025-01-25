@@ -1,4 +1,5 @@
 import os
+import pickle
 import requests
 from tqdm import tqdm
 from acdh_cidoc_pyutils import (
@@ -71,6 +72,7 @@ for x in tqdm(items, total=len(items)):
     ):
         g.add((subj, CIDOC["P74_has_current_or_former_residence"], URIRef(f"{PU}{y}")))
 
-save_path = os.path.join(rdf_dir, f"pmb_{entity_type}.ttl")
+save_path = os.path.join(rdf_dir, f"pmb_{entity_type}.pickle")
 print(f"saving graph as {save_path}")
-g.serialize(save_path)
+with open(save_path, "wb") as f:
+    pickle.dump(g, f)

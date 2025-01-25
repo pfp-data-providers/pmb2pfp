@@ -1,4 +1,5 @@
 import os
+import pickle
 import requests
 from tqdm import tqdm
 from acdh_cidoc_pyutils import (
@@ -86,7 +87,7 @@ for x in tqdm(items, total=len(items)):
         x,
         f"{PU}place__",
         event_type="birth",
-        verbose=True,
+        verbose=False,
         default_prefix="Geburt von",
         date_node_xpath="/tei:date[1]",
         place_id_xpath="//tei:settlement[1]/@key",
@@ -99,7 +100,7 @@ for x in tqdm(items, total=len(items)):
         x,
         f"{PU}place__",
         event_type="death",
-        verbose=True,
+        verbose=False,
         default_prefix="Tod von",
         date_node_xpath="/tei:date[1]",
         place_id_xpath="//tei:settlement[1]/@key",
@@ -109,6 +110,7 @@ for x in tqdm(items, total=len(items)):
     # occupations
     g += make_occupations(subj, x, id_xpath="./@key")[0]
 
-save_path = os.path.join(rdf_dir, f"pmb_{entity_type}.ttl")
+save_path = os.path.join(rdf_dir, f"pmb_{entity_type}.pickle")
 print(f"saving graph as {save_path}")
-g.serialize(save_path)
+with open(save_path, "wb") as f:
+    pickle.dump(g, f)

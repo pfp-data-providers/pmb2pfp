@@ -1,4 +1,5 @@
 import os
+import pickle
 import requests
 from lxml.etree import Element
 from tqdm import tqdm
@@ -89,6 +90,7 @@ for x in tqdm(items, total=len(items)):
     g += p89_falls_within(subj, x, f"{PU}")
 
 
-save_path = os.path.join(rdf_dir, f"pmb_{entity_type}.ttl")
+save_path = os.path.join(rdf_dir, f"pmb_{entity_type}.pickle")
 print(f"saving graph as {save_path}")
-g.serialize(save_path)
+with open(save_path, "wb") as f:
+    pickle.dump(g, f)
