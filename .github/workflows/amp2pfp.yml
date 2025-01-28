@@ -22,7 +22,7 @@ jobs:
       - name: validate the data
         run: ./scripts/validate.sh
       - name: Upload validation report
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: validation-report
           path: datasets/validation_report.txt
