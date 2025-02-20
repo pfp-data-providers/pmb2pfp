@@ -5,7 +5,7 @@ from utils import upload_files_to_owncloud
 
 user = os.environ["OWNCLOUD_USER"]
 pw = os.environ["OWNCLOUD_PW"]
-oc_folder = os.environ.get("OWNCLOUD_FOLDER")
+oc_folder = os.environ.get("OWNCLOUD_FOLDER", "pfp-data")
 
 if oc_folder:
     files = glob.glob("./datasets/*.nt")
