@@ -16,7 +16,7 @@ if os.path.exists(index_file):
 else:
     url = "https://pmb.acdh.oeaw.ac.at/network/tei/?edge_kind=personperson"
     print(f"fetching {index_file} from {url}")
-    response = requests.get(url)
+    response = requests.get(url, timeout=180)
     with open(index_file, "wb") as file:
         file.write(response.content)
 
