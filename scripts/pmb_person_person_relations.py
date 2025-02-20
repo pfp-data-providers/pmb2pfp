@@ -22,7 +22,7 @@ else:
 
 lookup_dict = requests.get(
     "https://acdh-oeaw.github.io/pfp-schema/mappings/person-person.json"
-).json()["pmp-person-person"]
+).json()
 doc = TeiReader(index_file)
 g = Graph()
 g.parse("https://acdh-oeaw.github.io/pfp-schema/types/person-person/person-person.ttl")
