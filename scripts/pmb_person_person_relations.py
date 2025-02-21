@@ -10,15 +10,6 @@ index_file = "pmb-person-person.xml"
 rdf_dir = "./datasets"
 os.makedirs(rdf_dir, exist_ok=True)
 
-print("check if source file exists")
-if os.path.exists(index_file):
-    pass
-else:
-    url = "https://pmb.acdh.oeaw.ac.at/network/tei/?edge_kind=personperson"
-    print(f"fetching {index_file} from {url}")
-    response = requests.get(url, timeout=180)
-    with open(index_file, "wb") as file:
-        file.write(response.content)
 
 lookup_dict = requests.get(
     "https://acdh-oeaw.github.io/pfp-schema/mappings/person-person.json"

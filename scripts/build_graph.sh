@@ -1,5 +1,14 @@
 start_time=$(date +%s)
 
+DATA_FOLDER=datasets
+PERSON_PERSON="pmb-person-person.xml"
+
+rm -rf ${DATA_FOLDER}
+mkdir ${DATA_FOLDER}
+echo "saving https://pmb.acdh.oeaw.ac.at/network/tei/?edge_kind=personperson as ${PERSON_PERSON}"
+
+wget -O ${PERSON_PERSON} https://pmb.acdh.oeaw.ac.at/network/tei/?edge_kind=personperson
+
 python scripts/pmb_orgs.py
 python scripts/pmb_places.py
 python scripts/pmb_persons.py
