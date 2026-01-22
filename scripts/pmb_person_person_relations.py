@@ -12,11 +12,11 @@ os.makedirs(rdf_dir, exist_ok=True)
 
 
 lookup_dict = requests.get(
-    "https://acdh-oeaw.github.io/pfp-schema/mappings/person-person.json"
+    "https://pfp-schema.acdh.oeaw.ac.at/mappings/person-person.json"
 ).json()
 doc = TeiReader(index_file)
 g = Graph()
-g.parse("https://acdh-oeaw.github.io/pfp-schema/types/person-person/person-person.ttl")
+g.parse("https://pfp-schema.acdh.oeaw.ac.at/types/person-person/person-person.ttl")
 for x in doc.any_xpath(".//tei:relation"):
     g += tei_relation_to_SRPC3_in_social_relation(
         x,
