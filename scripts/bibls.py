@@ -1,4 +1,5 @@
 import os
+import pickle
 
 import requests
 from acdh_cidoc_pyutils import (
@@ -9,7 +10,7 @@ from acdh_cidoc_pyutils.namespaces import CIDOC, LRMOO
 from acdh_tei_pyutils.tei import TeiReader
 from acdh_tei_pyutils.utils import check_for_hash, extract_fulltext, get_xmlid
 from acdh_xml_pyutils.xml import NSMAP
-from config import PU
+from config import LIMIT, PU, prefix
 from rdflib import Graph, Literal, URIRef
 from rdflib.namespace import RDF, RDFS
 from tqdm import tqdm
@@ -45,6 +46,8 @@ else:
 
 doc = TeiReader(index_file)
 items = doc.any_xpath(f".//tei:{entity_type}[@xml:id]")
+if LIMIT:
+    items = items[:LIMIT]
 
 for x in tqdm(items, total=len(items)):
     xml_id = get_xmlid(x)
@@ -98,6 +101,7 @@ for x in tqdm(items, total=len(items)):
                 )
             )
 
-save_path = os.path.join(rdf_dir, f"hanslick_{entity_type}.nt")
+save_path = os.path.join(rdf_dir, f"{prefix}_{entity_type}.pickle")
 print(f"saving graph as {save_path}")
-g.serialize(save_path, format="nt", encoding="utf-8")
+with open(save_path, "wb") as f:
+    pickle.dump(g, f)

@@ -172,3 +172,4 @@ cython_debug/
 .pypirc
 .secret
 validation_report.txt
+play.py
