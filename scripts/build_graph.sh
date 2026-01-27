@@ -9,11 +9,13 @@ echo "saving https://pmb.acdh.oeaw.ac.at/network/tei/?edge_kind=personperson as 
 
 wget -O ${PERSON_PERSON} https://pmb.acdh.oeaw.ac.at/network/tei/?edge_kind=personperson
 
-python scripts/pmb_orgs.py
-python scripts/pmb_places.py
-python scripts/pmb_persons.py
-python scripts/pmb_person_person_relations.py
-python scripts/pmb.py
+uv run scripts/bibls.py
+uv run scripts/orgs.py
+uv run scripts/bibls.py
+uv run scripts/places.py
+uv run scripts/persons.py
+uv run scripts/person_person_relations.py
+uv run scripts/finalize.py
 
 end_time=$(date +%s)
 duration=$((end_time - start_time))

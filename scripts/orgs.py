@@ -1,29 +1,22 @@
 import os
 import pickle
+
 import requests
-from tqdm import tqdm
 from acdh_cidoc_pyutils import (
-    make_e42_identifiers,
     make_appellations,
+    make_e42_identifiers,
 )
 from acdh_cidoc_pyutils.namespaces import CIDOC
 from acdh_tei_pyutils.tei import TeiReader
 from acdh_tei_pyutils.utils import get_xmlid
 from acdh_xml_pyutils.xml import NSMAP
-from rdflib import Graph, Namespace, URIRef
+from config import LIMIT, PU
+from rdflib import Graph, URIRef
 from rdflib.namespace import RDF
-
+from tqdm import tqdm
 
 entity_type = "org"
 g = Graph()
-domain = "https://pmb.acdh.oeaw.ac.at/"
-PU = Namespace(domain)
-
-if os.environ.get("NO_LIMIT"):
-    LIMIT = False
-    print("no limit")
-else:
-    LIMIT = 1000
 
 rdf_dir = "./datasets"
 os.makedirs(rdf_dir, exist_ok=True)
