@@ -1,14 +1,14 @@
 import glob
-import pickle
 import os
-from rdflib import Graph
+import pickle
 
+from config import prefix
+from rdflib import Graph
 from utils import upload_files_to_owncloud
 
 user = os.environ["OWNCLOUD_USER"]
 pw = os.environ["OWNCLOUD_PW"]
 
-prefix = "pmb"
 
 files = glob.glob(f"./datasets/{prefix}_*.pickle")
 
