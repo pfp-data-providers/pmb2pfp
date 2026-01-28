@@ -1,12 +1,12 @@
 import os
 import pickle
-import requests
 
+import requests
 from acdh_cidoc_pyutils import tei_relation_to_SRPC3_in_social_relation
 from acdh_tei_pyutils.tei import TeiReader
 from rdflib import Graph
 
-index_file = "pmb-person-person.xml"
+index_file = "https://pmb.acdh.oeaw.ac.at/network/tei/?source_kind=person&target_kind=institution"
 rdf_dir = "./datasets"
 os.makedirs(rdf_dir, exist_ok=True)
 
@@ -26,7 +26,9 @@ for x in doc.any_xpath(".//tei:relation"):
         entity_prefix="person__",
     )
 
-save_path = os.path.join(rdf_dir, "pmb_person-person-relations.pickle")
+save_path = os.path.join(rdf_dir, "pmb_person-place-relations.pickle")
 print(f"saving graph as {save_path}")
 with open(save_path, "wb") as f:
     pickle.dump(g, f)
+
+g.serialize("foo.nt", format="nt", encoding="utf-8")

@@ -9,6 +9,7 @@ echo "saving https://pmb.acdh.oeaw.ac.at/network/tei/?edge_kind=personperson as 
 
 wget -O ${PERSON_PERSON} https://pmb.acdh.oeaw.ac.at/network/tei/?edge_kind=personperson
 
+uv run scripts/person_org_relations.py
 uv run scripts/bibls.py
 uv run scripts/orgs.py
 uv run scripts/bibls.py
