@@ -13,6 +13,7 @@ from rdflib import RDF, RDFS, Graph, Literal, URIRef
 def p143_person_org_joining(
     node: Element,
     domain: URIRef,
+    discriminator: str,
     prefix_subject="",
     prefix_object="",
     mapping={},
@@ -31,11 +32,13 @@ def p143_person_org_joining(
     Args:
         node (Element): A tei:relation node.
         domain (URIRef): A domain to create the institutions URI.
+        discriminator(str): A unique item to distinguish different relations between the same subj/obj
         prefix_subject (str, optional): A prefix needed to create the E21 person's URI. Defaults to ""
         prefix_object (str, optional): A prefix needed to create the E74 group's URI. Defaults to "".
         mapping (dict, optional): A mapping from local terms to a normalized vocabulary. Defaults to {}.
         label_lang(str, optional): The lang code for the E85_Joining. Defaults to en.
         default_type(str, optional): A default for <crm:PC144_joined_with> P144_1_kind_of_member <crm:E55_Type>
+
 
     Returns:
         Graph: The graph
@@ -46,7 +49,7 @@ def p143_person_org_joining(
     obj_id = check_for_hash(node.attrib["passive"])
     subj = URIRef(f"{domain}{prefix_subject}{subj_id}")
     obj = URIRef(f"{domain}{prefix_object}{obj_id}")
-    joining_uri = URIRef(f"{subj}/E85_Joining/{obj_id}")
+    joining_uri = URIRef(f"{subj}/E85_Joining/{discriminator}/{obj_id}")
     joined_with_uri = URIRef(f"{joining_uri}/PC144_joined_with")
     g.add((joined_with_uri, RDF.type, CIDOC["PC144_joined_with"]))
     g.add((subj, CIDOC["P143i_was_joined_by"], joining_uri))
@@ -79,9 +82,14 @@ g = Graph()
 g.parse(
     "https://pfp-schema.acdh.oeaw.ac.at/types/person-institution/person-institution.ttl"
 )
-for x in doc.any_xpath(".//tei:relation"):
+for i, x in enumerate(doc.any_xpath(".//tei:relation"), start=1):
     g += p143_person_org_joining(
-        x, PU, prefix_subject="person__", prefix_object="org__", mapping=lookup_dict
+        x,
+        PU,
+        str(i),
+        prefix_subject="person__",
+        prefix_object="org__",
+        mapping=lookup_dict,
     )
 save_path = os.path.join(rdf_dir, "pmb_person-org-relations.pickle")
 print(f"saving graph as {save_path}")
